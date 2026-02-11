@@ -252,6 +252,7 @@
             Btn_Crear.TabIndex = 18;
             Btn_Crear.Text = "Crear";
             Btn_Crear.UseVisualStyleBackColor = false;
+            Btn_Crear.Click += Btn_Crear_Click;
             // 
             // Btn_Eliminar
             // 
@@ -264,6 +265,7 @@
             Btn_Eliminar.TabIndex = 19;
             Btn_Eliminar.Text = "Eliminar";
             Btn_Eliminar.UseVisualStyleBackColor = false;
+            Btn_Eliminar.Click += Btn_Eliminar_Click;
             // 
             // Btn_Actualizar
             // 
@@ -276,6 +278,7 @@
             Btn_Actualizar.TabIndex = 20;
             Btn_Actualizar.Text = "Actualizar";
             Btn_Actualizar.UseVisualStyleBackColor = false;
+            Btn_Actualizar.Click += Btn_Actualizar_Click;
             // 
             // Btn_MostrarTodo
             // 
@@ -288,6 +291,7 @@
             Btn_MostrarTodo.TabIndex = 21;
             Btn_MostrarTodo.Text = "Mostrar Todo";
             Btn_MostrarTodo.UseVisualStyleBackColor = false;
+            Btn_MostrarTodo.Click += Btn_MostrarTodo_Click;
             // 
             // Btn_Buscar
             // 
@@ -300,6 +304,7 @@
             Btn_Buscar.TabIndex = 22;
             Btn_Buscar.Text = "Buscar";
             Btn_Buscar.UseVisualStyleBackColor = false;
+            Btn_Buscar.Click += Btn_Buscar_Click;
             // 
             // Form1
             // 
